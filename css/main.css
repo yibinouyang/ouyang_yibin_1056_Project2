@@ -1,0 +1,35 @@
+@charset "UTF-8"
+/*CSS Documents */
+
+#container{
+	width: 960px;
+	height: 1200px;
+	margin: 20 auto;
+}
+
+img{
+	width: 75%;
+	height: 75%;
+}
+
+
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.hidden
+{
+	display: none;
+}
+
+h1{
+	font-family: 'open_sansbold', times, sans-serif;
+	font-size: 45px;
+}
