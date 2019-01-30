@@ -1,35 +1,167 @@
 @charset "UTF-8"
 /*CSS Documents */
 
-#container{
+#mainBody{
 	width: 960px;
 	height: 1200px;
-	margin: 20 auto;
+	margin: 15 auto;
+	font-size: 20px;
+	padding-left: 30px;
+	font-family: MyWebFont, Arial, sans-serif;
 }
 
-img{
-	width: 75%;
-	height: 75%;
-}
-
-
-
-@font-face {
-    font-family: 'open_sansbold';
-    src: url('../fonts/opensans-bold-webfont.woff2') format('woff2'),
-         url('../fonts/opensans-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+#Title{
+	display: flex;
+	padding-left: 150px;
+	padding-top: 30px;
+	color: #000000;
+	font-size: 50px;
 
 }
 
+#Title p{
+		margin-left: 20px;
+		font-family: 'Monoton', cursive;
+		font-size: 40px;
+}
+
+#Title img {
+	width: 80px;
+	height: auto;
+}
+
+
+
+#mainNav
+{
+	width: 500px;
+	height: 25px;
+	margin-top: 20px;
+	margin-left: auto;
+	/*background-color: red;*/
+}
+
+#mainNav ul
+{
+	list-style-type: none;
+	padding: 5px;
+}
+
+#mainNav ul li
+{
+	display: inline;
+	font-size: 8px;
+	margin-left: 30px;
+}
+
+#mainNav ul li a
+{
+	color: #ead726;
+	padding: 5px;
+	background-color: #497e9e;
+	font-size: 18px;
+}
 
 .hidden
 {
 	display: none;
 }
 
-h1{
-	font-family: 'open_sansbold', times, sans-serif;
-	font-size: 45px;
+.body1 p{
+	
+		font-family: 'Permanent Marker', cursive;
+		margin-left: 30px;
+
 }
+
+.body1
+{
+	width: 1000px;
+	height: 120px;
+	padding-left: 50px;
+	padding-top: 100px;
+	display: flex;
+	flex-direction: row；
+
+}
+
+.body1 img {
+	width: 180px;
+	height: auto;
+}
+
+
+
+
+.body2
+{
+	width: 1080px;
+	height: 120px;
+	padding-left: 50px;
+	padding-top: 100px;
+	display: flex;
+	flex-direction: row;
+}
+
+.body2 p{
+	margin-left: 20px;
+	font-size: 15px;
+	font-family: 'Poiret One', cursive;
+}
+
+.body2 img {
+	width: 280px;
+	height: auto;
+}
+
+.body3
+{
+	width: 800px;
+	height: 120px;
+	padding-left: 50px;
+	padding-top: 100px;
+	display: flex;
+	flex-direction: row;
+}
+
+.body4
+{
+	width: 800px;
+	height: 120px;
+	padding-left: 50px;
+	padding-top: 100px;
+	display: flex;
+	flex-direction: row;
+}
+
+.body5
+{
+	width: 800px;
+	height: 120px;
+	padding-left: 50px;
+	padding-top: 100px;
+	display: flex;
+	flex-direction: row;
+}
+
+.body6
+{
+	width: 800px;
+	height: 120px;
+	padding-left: 50px;
+	padding-top: 100px;
+	display: flex;
+	flex-direction:row;
+}
+.body7
+{
+	width: 800px;
+	height: 120px;
+	padding-left: 50px;
+	padding-top: 100px;
+	display: flex;
+	flex-direction: row;
+}
+
+
+font-family: 'Permanent Marker', cursive;
